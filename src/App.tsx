@@ -12,11 +12,13 @@ function App() {
       <h1>Cours GITHUB</h1>
       <p>Apprentissage...</p>
       <h2>GIT</h2>
-      <p>git init</p>
-      <p>git status</p>
-      <p>git add</p>
-      <p>git reset</p>
-      <p>git commit</p>
+      <p>✔ git init : Initialiser un repos</p>
+      <p>✔ git status : Status actuel du repos</p>
+      <p>✔ git add : Indexer les modifications</p>
+      <p>✔ git reset : Retirer indexation</p>
+      <p>✔ git commit : Sauvegarder</p>
+      <p>✔ git diff : Voir les modiffications par raport à la dernière version enregistée dans le repos</p>
+      <p>✔ git diff --cached : Voir les modiffications des fichier indexé (git add)</p>
     </>
   )
 }
