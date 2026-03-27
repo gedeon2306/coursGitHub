@@ -19,6 +19,7 @@ function App() {
       <p>✔ git commit : Sauvegarder</p>
       <p>✔ git diff : Voir les modiffications de l'espace de travail par raport à la dernière version enregistée dans le repos</p>
       <p>✔ git diff --cached : Voir les modiffications des fichier indexé (git add)</p>
+      <p>✔ git checkout -b dev : créer et basculer sur une nouvelle branche</p>
     </>
   )
 }
