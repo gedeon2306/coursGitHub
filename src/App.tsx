@@ -25,6 +25,7 @@ function App() {
       <p>✔ git pull [branch] : Met à jour son dépôt local avec les commits présents sur le serveur distant.</p>
       <p>✔ git rm --cached [fichier ou dossier] : Supprimer de git mais pas dans l'espace de travail.</p>
       <p>✔ git mv [fichier_original] [fichier_modifie] : Modifier un fichier pour ne pas perdre l'historique.</p>
+      <h2>GITHUB</h2>
     </>
   )
 }
