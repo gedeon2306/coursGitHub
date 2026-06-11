@@ -9,5 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "dependencies": {
+    
+  },
+  
   
 }
