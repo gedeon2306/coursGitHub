@@ -16,6 +16,8 @@ function App() {
       <p>✔ git status : Status actuel du repos</p>
       <p>✔ git add : Indexer les modifications</p>
       <p>✔ git reset : Retirer indexation</p>
+      <p>✔ git reset HEAD~2: Annuler les deux dernière commit</p>
+      <p>✔ git commit : Sauvegarder</p>
       
     </>
   )
