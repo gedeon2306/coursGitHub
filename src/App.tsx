@@ -8,4 +8,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    
+    <>
+      <h1>Cours GITHUB</h1>
+      <p>Apprentissage...</p>
+      
+    </>
+  )
+}
+
+export default App
