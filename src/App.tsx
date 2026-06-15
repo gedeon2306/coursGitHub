@@ -14,6 +14,8 @@ function App() {
       <h2>GIT</h2>
       <p>✔ git init : Initialiser un repos</p>
       <p>✔ git status : Status actuel du repos</p>
+      <p>✔ git add : Indexer les modifications</p>
+      <p>✔ git reset : Retirer indexation</p>
       
     </>
   )
