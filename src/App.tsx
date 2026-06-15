@@ -11,6 +11,9 @@ function App() {
     <>
       <h1>Cours GITHUB</h1>
       <p>Apprentissage...</p>
+      <h2>GIT</h2>
+      <p>✔ git init : Initialiser un repos</p>
+      <p>✔ git status : Status actuel du repos</p>
       
     </>
   )
