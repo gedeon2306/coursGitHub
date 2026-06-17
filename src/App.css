@@ -33,6 +33,11 @@
     z-index: 0;
   }
 
+  .framework,
+  .vite {
+    position: absolute;
+  }
+
 #next-steps ul {
   list-style: none;
   padding: 0;
