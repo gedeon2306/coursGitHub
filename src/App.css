@@ -173,5 +173,10 @@
     border: 5px solid transparent;
   }
 
+  &::before {
+    left: 0;
+    border-left-color: var(--border);
+  }
+}
 
 
