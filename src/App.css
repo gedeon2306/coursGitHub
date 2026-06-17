@@ -17,6 +17,16 @@
   }
 }
 
+.hero {
+  position: relative;
+
+  .base,
+  .framework,
+  .vite {
+    inset-inline: 0;
+    margin: 0 auto;
+  }
+
 
 #next-steps ul {
   list-style: none;
