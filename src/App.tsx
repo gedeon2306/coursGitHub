@@ -45,6 +45,7 @@ function App() {
       <p>✔ git push -u origin [nom_branche] : Envoyer vos commits locaux vers GitHub pour la première fois (le `-u` configure le lien par défaut).</p>
       <p>✔ git push : Envoyer vos nouveaux commits sur GitHub (une fois le lien établi).</p>
       <p>✔ git fetch : Récupérer l'historique et les branches du dépôt distant sans modifier vos fichiers locaux.</p>
+      <p>✔ git pull : Télécharger les nouveautés depuis GitHub ET les fusionner directement dans votre branche actuelle (équivaut à un `git fetch` + `git merge`).</p>
       
   )
 }
