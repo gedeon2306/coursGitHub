@@ -30,7 +30,10 @@ function App() {
       <p>✔ git branch : Lister les branches locales. (La branche principale s'appelle souvent `main` ou `master`).</p>
       <p>✔ git checkout [nom_branche] : Basculer sur une autre branche existante.</p>
       <p>✔ git checkout -b [nom_branche] : Créer une nouvelle branche et basculer dessus immédiatement.</p>
-      
+      <p>✔ git merge [nom_branche] : Fusionner la branche spécifiée dans la branche actuelle.</p>
+      <p>✔ git rebase [nom_branche] : Déplacer ou combiner une suite de commits sur une nouvelle base (met à jour la branche avec les commits de [branch]).</p>
+      <p>✔ git branch -d [nom_branche] : Supprimer une branche locale (une fois fusionnée).</p>
+
   )
 }
 
