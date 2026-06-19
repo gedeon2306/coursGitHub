@@ -18,7 +18,10 @@ function App() {
       <p>✔ git clone [url] : Cloner un projet existant depuis un dépôt distant.</p>
       <p>✔ git status : Voir l'état actuel des fichiers (suivis, modifiés, indexés).</p>
       <p>✔ git add [fichier] : Indexer un fichier (Staging Area). Utiliser `git add .` pour tout indexer.</p>
-      
+      <p>✔ git reset [fichier] : Retirer un fichier de l'indexation sans annuler les modifications.</p>
+      <p>✔ git commit -m "[message]" : Sauvegarder les modifications indexées dans l'historique.</p>
+      <p>✔ git commit --amend : Modifier le message ou le contenu du tout dernier commit.</p>
+
     </>
   )
 }
