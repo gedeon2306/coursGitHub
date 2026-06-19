@@ -38,6 +38,11 @@ function App() {
       <p>✔ git rm --cached [fichier] : Supprimer un fichier du suivi de Git mais le conserver dans l'espace de travail.</p>
       <p>✔ git mv [ancien_nom] [nouveau_nom] : Renommer ou déplacer un fichier sans perdre son historique.</p>
 
+      {/* ================= SECTION GITHUB ================= */}
+      <h2>GITHUB (Distant / Remote)</h2>
+      <p>✔ git remote add origin [url_github] : Lier votre dépôt local à un dépôt distant sur GitHub.</p>
+      <p>✔ git remote -v : Lister les dépôts distants associés à votre projet.</p>
+      
   )
 }
 
