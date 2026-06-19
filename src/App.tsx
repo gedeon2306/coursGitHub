@@ -42,6 +42,8 @@ function App() {
       <h2>GITHUB (Distant / Remote)</h2>
       <p>✔ git remote add origin [url_github] : Lier votre dépôt local à un dépôt distant sur GitHub.</p>
       <p>✔ git remote -v : Lister les dépôts distants associés à votre projet.</p>
+      <p>✔ git push -u origin [nom_branche] : Envoyer vos commits locaux vers GitHub pour la première fois (le `-u` configure le lien par défaut).</p>
+      <p>✔ git push : Envoyer vos nouveaux commits sur GitHub (une fois le lien établi).</p>
       
   )
 }
