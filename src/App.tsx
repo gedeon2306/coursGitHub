@@ -34,6 +34,10 @@ function App() {
       <p>✔ git rebase [nom_branche] : Déplacer ou combiner une suite de commits sur une nouvelle base (met à jour la branche avec les commits de [branch]).</p>
       <p>✔ git branch -d [nom_branche] : Supprimer une branche locale (une fois fusionnée).</p>
 
+      <h3>Utilitaires</h3>
+      <p>✔ git rm --cached [fichier] : Supprimer un fichier du suivi de Git mais le conserver dans l'espace de travail.</p>
+      <p>✔ git mv [ancien_nom] [nouveau_nom] : Renommer ou déplacer un fichier sans perdre son historique.</p>
+
   )
 }
 
