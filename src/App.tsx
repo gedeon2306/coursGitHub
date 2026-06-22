@@ -37,7 +37,10 @@ function App() {
       <p>✔ git remote add origin [url_github] : Lier votre dépôt local à un dépôt distant sur GitHub.</p>
       <p>✔ git remote -v : Lister les dépôts distants associés à votre projet.</p>
       <p>✔ git push -u origin [nom_branche] : Envoyer vos commits locaux vers GitHub pour la première fois (le `-u` configure le lien par défaut).</p>
-      
+      <p>✔ git push : Envoyer vos nouveaux commits sur GitHub (une fois le lien établi).</p>
+      <p>✔ git fetch : Récupérer l'historique et les branches du dépôt distant sans modifier vos fichiers locaux.</p>
+      <p>✔ git pull : Télécharger les nouveautés depuis GitHub ET les fusionner directement dans votre branche actuelle (équivaut à un `git fetch` + `git merge`).</p>
+      <p>✔ Définition - Pull Request (PR) : Demande de fusion de votre branche vers la branche principale sur l'interface GitHub, idéale pour la revue de code en équipe.</p>
     </>
   )
 }
