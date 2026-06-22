@@ -16,6 +16,9 @@ function App() {
       <p>✔ git commit -m "[message]" : Sauvegarder les modifications indexées dans l'historique.</p>
       <p>✔ git commit --amend : Modifier le message ou le contenu du tout dernier commit.</p>
       <p>✔ git log : Afficher l'historique de tous les commits validés.</p>
+      <p>✔ git reset HEAD~2 : Annuler les deux derniers commits en gardant les modifications dans l'espace de travail.</p>
+      <p>✔ git diff : Voir les modifications de l'espace de travail par rapport à la dernière version enregistrée.</p>
+      <p>✔ git diff --cached : Voir les modifications des fichiers indexés (après un git add).</p>
       
     </>
   )
